@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Scene 1 - Earth.unity
+- path: Assets/Scenes/Scene 2 - Outside Biosphere.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
