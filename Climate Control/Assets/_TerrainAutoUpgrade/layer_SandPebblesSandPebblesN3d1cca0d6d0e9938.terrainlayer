@@ -7,7 +7,7 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: layer_SandPebblesSandPebblesN3d1cca0d6d0e9938
-  m_DiffuseTexture: {fileID: 2800000, guid: 78b708160354a4748b5701d50271d3fe, type: 3}
+  m_DiffuseTexture: {fileID: 2800000, guid: baafe81d1a28b0d45b7f3e673509d5e8, type: 3}
   m_NormalMapTexture: {fileID: 2800000, guid: 1845b576731b88f4591e871d4a02afcc, type: 3}
   m_MaskMapTexture: {fileID: 0}
   m_TileSize: {x: 10, y: 10}
