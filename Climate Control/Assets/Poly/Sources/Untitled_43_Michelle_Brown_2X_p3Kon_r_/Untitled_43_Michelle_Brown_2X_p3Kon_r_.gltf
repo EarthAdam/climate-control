@@ -1,0 +1,1134 @@
+{
+	"asset": {
+		"generator": "Tilt Brush 22.3.bfe37158d",
+		"version": "1.1",
+		"copyright": "Unknown."
+	},
+	"buffers": {
+		"buffer_sketch": {
+			"byteLength": 1956752,
+			"type": "arraybuffer",
+			"uri": "sketch.bin"
+		}
+	},
+	"accessors": {
+		"accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 0,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 18120,
+			"max": [ 0.0742376372, 1.94816172, 0.201378986 ],
+			"min": [ -0.0739834756, 1.73023343, -0.127341911 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 217440,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 18120,
+			"max": [ 0.99999398, 0.999614656, 0.999984086 ],
+			"min": [ -0.99999404, -0.999232531, -0.999683797 ],
+			"type": "VEC3"
+		},
+		"accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 0,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 18120,
+			"type": "VEC4"
+		},
+		"accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 434880,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 18120,
+			"max": [ 0, 1, 0.000794031599 ],
+			"min": [ 0, 1, 0.000443850149 ],
+			"type": "VEC3"
+		},
+		"accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 0,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 18120,
+			"max": [ 18119 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 652320,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 8866,
+			"max": [ 0.212326407, 2.01310325, 0.205809876 ],
+			"min": [ -0.212326214, 1.77827263, -0.116920225 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 758712,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 8866,
+			"max": [ 0.999661148, 0.99952209, 0.999746799 ],
+			"min": [ -0.999661148, -0.99952209, -0.999746799 ],
+			"type": "VEC3"
+		},
+		"accessor_color_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 289920,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 8866,
+			"type": "VEC4"
+		},
+		"accessor_tangent_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 431776,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 8866,
+			"max": [ 0.999909878, 0.994405746, 0.992202759, 1 ],
+			"min": [ -0.999910355, -0.990174532, -0.988809347, 1 ],
+			"type": "VEC4"
+		},
+		"accessor_uv0_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 865104,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 8866,
+			"max": [ 7.8979845, 1, 0.00599688618 ],
+			"min": [ -0.0178482495, 0, 0 ],
+			"type": "VEC3"
+		},
+		"accessor_indices_0_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 36240,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 45408,
+			"max": [ 8865 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 971496,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 3300,
+			"max": [ 0.0628421232, 1.93889356, -0.056770701 ],
+			"min": [ -0.0513652451, 1.87132585, -0.122419171 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1011096,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 3300,
+			"max": [ 0.99874711, 0.997496843, 0.990408123 ],
+			"min": [ -0.999726892, -0.959852338, -0.999022424 ],
+			"type": "VEC3"
+		},
+		"accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 573632,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 3300,
+			"type": "VEC4"
+		},
+		"accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1050696,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 3300,
+			"max": [ 0, 1, 0.000470152794 ],
+			"min": [ 0, 1, 0.000470152794 ],
+			"type": "VEC3"
+		},
+		"accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 127056,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 3300,
+			"max": [ 3299 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1090296,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1908,
+			"max": [ 0.206541374, 2.00328994, 0.206371933 ],
+			"min": [ -0.206541225, 1.87492502, -0.0219485145 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1113192,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1908,
+			"max": [ 0.998702168, 0.979363143, 0.999579608 ],
+			"min": [ -0.998702168, -0.980537474, -0.882098794 ],
+			"type": "VEC3"
+		},
+		"accessor_color_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 626432,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 1908,
+			"type": "VEC4"
+		},
+		"accessor_uv0_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1136088,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 1908,
+			"max": [ 0, 1, 0.000500000024 ],
+			"min": [ 0, 1, 0.000500000024 ],
+			"type": "VEC3"
+		},
+		"accessor_indices_0_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 133656,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 1908,
+			"max": [ 1907 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		"accessor_position_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1158984,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 48,
+			"max": [ 0.213989735, 2.01752281, 0.222117737 ],
+			"min": [ -0.213994026, 1.85671353, -0.00979415514 ],
+			"type": "VEC3"
+		},
+		"accessor_normal_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0": {
+			"bufferView": "vec3BufferView",
+			"byteOffset": 1159560,
+			"byteStride": 12,
+			"componentType": 5126,
+			"count": 48,
+			"max": [ 0.839111805, -0.238934323, -0.265618771 ],
+			"min": [ -0.839117289, -0.645223856, -0.488663912 ],
+			"type": "VEC3"
+		},
+		"accessor_color_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 656960,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 48,
+			"type": "VEC4"
+		},
+		"accessor_tangent_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0": {
+			"bufferView": "vec4BufferView",
+			"byteOffset": 657728,
+			"byteStride": 16,
+			"componentType": 5126,
+			"count": 48,
+			"max": [ 0.651985943, 0.415785491, 0.829860151, 1 ],
+			"min": [ -0.604956388, 0.104217499, 0.66554904, 1 ],
+			"type": "VEC4"
+		},
+		"accessor_uv0_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0": {
+			"bufferView": "vec2BufferView",
+			"byteOffset": 0,
+			"byteStride": 8,
+			"componentType": 5126,
+			"count": 48,
+			"max": [ 1, 1 ],
+			"min": [ 0, 0 ],
+			"type": "VEC2"
+		},
+		"accessor_indices_0_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0": {
+			"bufferView": "ushortBufferView",
+			"byteOffset": 137472,
+			"byteStride": 0,
+			"componentType": 5123,
+			"count": 132,
+			"max": [ 47 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	},
+	"bufferViews": {
+		"ushortBufferView": {
+			"buffer": "buffer_sketch",
+			"byteLength": 137736,
+			"byteOffset": 0,
+			"target": 34963
+		},
+		"vec2BufferView": {
+			"buffer": "buffer_sketch",
+			"byteLength": 384,
+			"byteOffset": 137736,
+			"target": 34962
+		},
+		"vec3BufferView": {
+			"buffer": "buffer_sketch",
+			"byteLength": 1160136,
+			"byteOffset": 138120,
+			"target": 34962
+		},
+		"vec4BufferView": {
+			"buffer": "buffer_sketch",
+			"byteLength": 658496,
+			"byteOffset": 1298256,
+			"target": 34962
+		}
+	},
+	"meshes": {
+		"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0": {
+			"name": "mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0",
+						"NORMAL": "accessor_normal_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0",
+						"COLOR": "accessor_color_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0",
+						"TEXCOORD_0": "accessor_uv0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0"
+					},
+					"indices": "accessor_indices_0_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0",
+					"material": "material_79348357-432d-4746-8e29-0e25c112e3aa",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0": {
+			"name": "mesh_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0",
+						"NORMAL": "accessor_normal_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0",
+						"COLOR": "accessor_color_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0",
+						"TANGENT": "accessor_tangent_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0",
+						"TEXCOORD_0": "accessor_uv0_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0"
+					},
+					"indices": "accessor_indices_0_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0",
+					"material": "material_2f212815-f4d3-c1a4-681a-feeaf9c6dc37",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"name": "mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+						"NORMAL": "accessor_normal_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+						"COLOR": "accessor_color_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+						"TEXCOORD_0": "accessor_uv0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0"
+					},
+					"indices": "accessor_indices_0_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+					"material": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0": {
+			"name": "mesh_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0",
+						"NORMAL": "accessor_normal_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0",
+						"COLOR": "accessor_color_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0",
+						"TEXCOORD_0": "accessor_uv0_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0"
+					},
+					"indices": "accessor_indices_0_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0",
+					"material": "material_c8313697-2563-47fc-832e-290f4c04b901",
+					"mode": 4
+				}
+			]
+		},
+		"mesh_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0": {
+			"name": "mesh_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": "accessor_position_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0",
+						"NORMAL": "accessor_normal_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0",
+						"COLOR": "accessor_color_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0",
+						"TANGENT": "accessor_tangent_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0",
+						"TEXCOORD_0": "accessor_uv0_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0"
+					},
+					"indices": "accessor_indices_0_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0",
+					"material": "material_accb32f5-4509-454f-93f8-1df3fd31df1b",
+					"mode": 4
+				}
+			]
+		}
+	},
+	"shaders": {
+		"vertex_79348357-432d-4746-8e29-0e25c112e3aa": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/MatteHull-79348357-432d-4746-8e29-0e25c112e3aa/MatteHull-79348357-432d-4746-8e29-0e25c112e3aa-v10.0-vertex.glsl"
+		},
+		"fragment_79348357-432d-4746-8e29-0e25c112e3aa": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/MatteHull-79348357-432d-4746-8e29-0e25c112e3aa/MatteHull-79348357-432d-4746-8e29-0e25c112e3aa-v10.0-fragment.glsl"
+		},
+		"vertex_2f212815-f4d3-c1a4-681a-feeaf9c6dc37": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37-v10.0-vertex.glsl"
+		},
+		"fragment_2f212815-f4d3-c1a4-681a-feeaf9c6dc37": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37-v10.0-fragment.glsl"
+		},
+		"vertex_faaa4d44-fcfb-4177-96be-753ac0421ba3": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/ShinyHull-faaa4d44-fcfb-4177-96be-753ac0421ba3/ShinyHull-faaa4d44-fcfb-4177-96be-753ac0421ba3-v10.0-vertex.glsl"
+		},
+		"fragment_faaa4d44-fcfb-4177-96be-753ac0421ba3": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/ShinyHull-faaa4d44-fcfb-4177-96be-753ac0421ba3/ShinyHull-faaa4d44-fcfb-4177-96be-753ac0421ba3-v10.0-fragment.glsl"
+		},
+		"vertex_c8313697-2563-47fc-832e-290f4c04b901": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/DiamondHull-c8313697-2563-47fc-832e-290f4c04b901/DiamondHull-c8313697-2563-47fc-832e-290f4c04b901-v10.0-vertex.glsl"
+		},
+		"fragment_c8313697-2563-47fc-832e-290f4c04b901": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/DiamondHull-c8313697-2563-47fc-832e-290f4c04b901/DiamondHull-c8313697-2563-47fc-832e-290f4c04b901-v10.0-fragment.glsl"
+		},
+		"vertex_accb32f5-4509-454f-93f8-1df3fd31df1b": {
+			"type": 35633,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/SoftHighlighter-accb32f5-4509-454f-93f8-1df3fd31df1b/SoftHighlighter-accb32f5-4509-454f-93f8-1df3fd31df1b-v10.0-vertex.glsl"
+		},
+		"fragment_accb32f5-4509-454f-93f8-1df3fd31df1b": {
+			"type": 35632,
+			"uri": "https://www.tiltbrush.com/shaders/brushes/SoftHighlighter-accb32f5-4509-454f-93f8-1df3fd31df1b/SoftHighlighter-accb32f5-4509-454f-93f8-1df3fd31df1b-v10.0-fragment.glsl"
+		}
+	},
+	"programs": {
+		"program_79348357-432d-4746-8e29-0e25c112e3aa": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_texcoord0"
+			],
+			"vertexShader": "vertex_79348357-432d-4746-8e29-0e25c112e3aa",
+			"fragmentShader": "fragment_79348357-432d-4746-8e29-0e25c112e3aa"
+		},
+		"program_2f212815-f4d3-c1a4-681a-feeaf9c6dc37": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_tangent",
+				"a_texcoord0"
+			],
+			"vertexShader": "vertex_2f212815-f4d3-c1a4-681a-feeaf9c6dc37",
+			"fragmentShader": "fragment_2f212815-f4d3-c1a4-681a-feeaf9c6dc37"
+		},
+		"program_faaa4d44-fcfb-4177-96be-753ac0421ba3": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_texcoord0"
+			],
+			"vertexShader": "vertex_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+			"fragmentShader": "fragment_faaa4d44-fcfb-4177-96be-753ac0421ba3"
+		},
+		"program_c8313697-2563-47fc-832e-290f4c04b901": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_texcoord0"
+			],
+			"vertexShader": "vertex_c8313697-2563-47fc-832e-290f4c04b901",
+			"fragmentShader": "fragment_c8313697-2563-47fc-832e-290f4c04b901"
+		},
+		"program_accb32f5-4509-454f-93f8-1df3fd31df1b": {
+			"attributes": [
+				"a_position",
+				"a_normal",
+				"a_color",
+				"a_tangent",
+				"a_texcoord0"
+			],
+			"vertexShader": "vertex_accb32f5-4509-454f-93f8-1df3fd31df1b",
+			"fragmentShader": "fragment_accb32f5-4509-454f-93f8-1df3fd31df1b"
+		}
+	},
+	"techniques": {
+		"technique_79348357-432d-4746-8e29-0e25c112e3aa": {
+			"program": "program_79348357-432d-4746-8e29-0e25c112e3aa",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"texcoord0": {
+					"type": 35665,
+					"semantic": "TEXCOORD_0"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_i2"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_i2"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"Cutoff": {
+					"type": 5126
+				},
+				"Color": {
+					"type": 35666
+				}
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_texcoord0": "texcoord0"
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_Cutoff": "Cutoff",
+				"u_Color": "Color"
+			},
+			"states": {
+				"enable": [
+					2929
+				],
+				"functions": {
+					"depthMask": [true]
+				}
+			}
+		},
+		"technique_2f212815-f4d3-c1a4-681a-feeaf9c6dc37": {
+			"program": "program_2f212815-f4d3-c1a4-681a-feeaf9c6dc37",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"tangent": {
+					"type": 35666,
+					"semantic": "TANGENT"
+				},
+				"texcoord0": {
+					"type": 35665,
+					"semantic": "TEXCOORD_0"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_i2"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_i2"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"Shininess": {
+					"type": 5126
+				},
+				"Cutoff": {
+					"type": 5126
+				},
+				"Color": {
+					"type": 35666
+				},
+				"SpecColor": {
+					"type": 35666
+				},
+				"BumpMap_TexelSize": {
+					"type": 35666
+				},
+				"BumpMap": {
+					"type": 35678
+				}
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_tangent": "tangent",
+				"a_texcoord0": "texcoord0"
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_Shininess": "Shininess",
+				"u_Cutoff": "Cutoff",
+				"u_Color": "Color",
+				"u_SpecColor": "SpecColor",
+				"u_BumpMap_TexelSize": "BumpMap_TexelSize",
+				"u_BumpMap": "BumpMap"
+			},
+			"states": {
+				"enable": [
+					2929,
+					2884
+				],
+				"functions": {
+					"depthMask": [true]
+				}
+			}
+		},
+		"technique_faaa4d44-fcfb-4177-96be-753ac0421ba3": {
+			"program": "program_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"texcoord0": {
+					"type": 35665,
+					"semantic": "TEXCOORD_0"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_i2"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_i2"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"Shininess": {
+					"type": 5126
+				},
+				"Cutoff": {
+					"type": 5126
+				},
+				"Color": {
+					"type": 35666
+				},
+				"SpecColor": {
+					"type": 35666
+				}
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_texcoord0": "texcoord0"
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_Shininess": "Shininess",
+				"u_Cutoff": "Cutoff",
+				"u_Color": "Color",
+				"u_SpecColor": "SpecColor"
+			},
+			"states": {
+				"enable": [
+					2929
+				],
+				"functions": {
+					"depthMask": [true]
+				}
+			}
+		},
+		"technique_c8313697-2563-47fc-832e-290f4c04b901": {
+			"program": "program_c8313697-2563-47fc-832e-290f4c04b901",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"texcoord0": {
+					"type": 35665,
+					"semantic": "TEXCOORD_0"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_i2"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_i2"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"MainTex_TexelSize": {
+					"type": 35666
+				},
+				"MainTex": {
+					"type": 35678
+				}
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_texcoord0": "texcoord0"
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_MainTex_TexelSize": "MainTex_TexelSize",
+				"u_MainTex": "MainTex"
+			},
+			"states": {
+				"enable": [
+					2929,
+					3042
+				],
+				"functions": {
+					"blendFuncSeparate": [1, 1, 1, 1],
+					"depthMask": [false]
+				}
+			}
+		},
+		"technique_accb32f5-4509-454f-93f8-1df3fd31df1b": {
+			"program": "program_accb32f5-4509-454f-93f8-1df3fd31df1b",
+			"parameters": {
+				"position": {
+					"type": 35665,
+					"semantic": "POSITION"
+				},
+				"normal": {
+					"type": 35665,
+					"semantic": "NORMAL"
+				},
+				"color": {
+					"type": 35666,
+					"semantic": "COLOR"
+				},
+				"tangent": {
+					"type": 35666,
+					"semantic": "TANGENT"
+				},
+				"texcoord0": {
+					"type": 35664,
+					"semantic": "TEXCOORD_0"
+				},
+				"modelViewMatrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW"
+				},
+				"projectionMatrix": {
+					"type": 35676,
+					"semantic": "PROJECTION"
+				},
+				"normalMatrix": {
+					"type": 35675,
+					"semantic": "MODELVIEWINVERSETRANSPOSE"
+				},
+				"SceneLight_0_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_0_color": {
+					"type": 35666,
+					"node": "node_SceneLight_0_i1"
+				},
+				"SceneLight_1_matrix": {
+					"type": 35676,
+					"semantic": "MODELVIEW",
+					"node": "node_SceneLight_1_i2"
+				},
+				"SceneLight_1_color": {
+					"type": 35666,
+					"node": "node_SceneLight_1_i2"
+				},
+				"ambient_light_color": {
+					"type": 35666
+				},
+				"MainTex_TexelSize": {
+					"type": 35666
+				},
+				"MainTex": {
+					"type": 35678
+				}
+			},
+			"attributes": {
+				"a_position": "position",
+				"a_normal": "normal",
+				"a_color": "color",
+				"a_tangent": "tangent",
+				"a_texcoord0": "texcoord0"
+			},
+			"uniforms": {
+				"u_modelViewMatrix": "modelViewMatrix",
+				"u_projectionMatrix": "projectionMatrix",
+				"u_normalMatrix": "normalMatrix",
+				"u_SceneLight_0_matrix": "SceneLight_0_matrix",
+				"u_SceneLight_0_color": "SceneLight_0_color",
+				"u_SceneLight_1_matrix": "SceneLight_1_matrix",
+				"u_SceneLight_1_color": "SceneLight_1_color",
+				"u_ambient_light_color": "ambient_light_color",
+				"u_MainTex_TexelSize": "MainTex_TexelSize",
+				"u_MainTex": "MainTex"
+			},
+			"states": {
+				"enable": [
+					2929,
+					3042
+				],
+				"functions": {
+					"blendFuncSeparate": [1, 1, 1, 1],
+					"depthMask": [false]
+				}
+			}
+		}
+	},
+	"samplers": {
+		"sampler_LINEAR_LINEAR_MIPMAP_LINEAR_REPEAT": {
+			"magFilter": 9729,
+			"minFilter": 9987,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	},
+	"textures": {
+		"texture_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_BumpMap": {
+			"format": 6408,
+			"internalFormat": 6408,
+			"sampler": "sampler_LINEAR_LINEAR_MIPMAP_LINEAR_REPEAT",
+			"source": "image_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_BumpMap",
+			"target": 3553,
+			"type": 5121
+		},
+		"texture_c8313697-2563-47fc-832e-290f4c04b901_MainTex": {
+			"format": 6408,
+			"internalFormat": 6408,
+			"sampler": "sampler_LINEAR_LINEAR_MIPMAP_LINEAR_REPEAT",
+			"source": "image_c8313697-2563-47fc-832e-290f4c04b901_MainTex",
+			"target": 3553,
+			"type": 5121
+		},
+		"texture_accb32f5-4509-454f-93f8-1df3fd31df1b_MainTex": {
+			"format": 6408,
+			"internalFormat": 6408,
+			"sampler": "sampler_LINEAR_LINEAR_MIPMAP_LINEAR_REPEAT",
+			"source": "image_accb32f5-4509-454f-93f8-1df3fd31df1b_MainTex",
+			"target": 3553,
+			"type": 5121
+		}
+	},
+	"images": {
+		"image_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_BumpMap": {
+			"uri": "https://www.tiltbrush.com/shaders/brushes/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37-v10.0-BumpMap.png"
+		},
+		"image_c8313697-2563-47fc-832e-290f4c04b901_MainTex": {
+			"uri": "https://www.tiltbrush.com/shaders/brushes/DiamondHull-c8313697-2563-47fc-832e-290f4c04b901/DiamondHull-c8313697-2563-47fc-832e-290f4c04b901-v10.0-MainTex.png"
+		},
+		"image_accb32f5-4509-454f-93f8-1df3fd31df1b_MainTex": {
+			"uri": "https://www.tiltbrush.com/shaders/brushes/SoftHighlighter-accb32f5-4509-454f-93f8-1df3fd31df1b/SoftHighlighter-accb32f5-4509-454f-93f8-1df3fd31df1b-v10.0-MainTex.png"
+		}
+	},
+	"materials": {
+		"material_79348357-432d-4746-8e29-0e25c112e3aa": {
+			"technique": "technique_79348357-432d-4746-8e29-0e25c112e3aa",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"Cutoff": 0.5,
+				"Color": [1, 1, 1, 1]
+			},
+			"name": "material_79348357-432d-4746-8e29-0e25c112e3aa"
+		},
+		"material_2f212815-f4d3-c1a4-681a-feeaf9c6dc37": {
+			"technique": "technique_2f212815-f4d3-c1a4-681a-feeaf9c6dc37",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"Shininess": 0.15,
+				"Cutoff": 0.5,
+				"Color": [1, 1, 1, 1],
+				"SpecColor": [0, 0, 0, 0],
+				"BumpMap_TexelSize": [0.0009765625, 0.0078125, 1024, 128],
+				"BumpMap": "texture_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_BumpMap"
+			},
+			"name": "material_2f212815-f4d3-c1a4-681a-feeaf9c6dc37"
+		},
+		"material_faaa4d44-fcfb-4177-96be-753ac0421ba3": {
+			"technique": "technique_faaa4d44-fcfb-4177-96be-753ac0421ba3",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"Shininess": 0.743,
+				"Cutoff": 0.5,
+				"Color": [1, 1, 1, 1],
+				"SpecColor": [0.1985294, 0.1985294, 0.1985294, 0]
+			},
+			"name": "material_faaa4d44-fcfb-4177-96be-753ac0421ba3"
+		},
+		"material_c8313697-2563-47fc-832e-290f4c04b901": {
+			"technique": "technique_c8313697-2563-47fc-832e-290f4c04b901",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"MainTex_TexelSize": [0.0078125, 0.0078125, 128, 128],
+				"MainTex": "texture_c8313697-2563-47fc-832e-290f4c04b901_MainTex"
+			},
+			"name": "material_c8313697-2563-47fc-832e-290f4c04b901"
+		},
+		"material_accb32f5-4509-454f-93f8-1df3fd31df1b": {
+			"technique": "technique_accb32f5-4509-454f-93f8-1df3fd31df1b",
+			"values": {
+				"SceneLight_0_color": [0.7780392, 0.8156863, 0.9913726, 1],
+				"SceneLight_1_color": [0.4282353, 0.4211765, 0.3458824, 1],
+				"ambient_light_color": [0.3921569, 0.3921569, 0.3921569, 1],
+				"MainTex_TexelSize": [0.001953125, 0.00390625, 512, 256],
+				"MainTex": "texture_accb32f5-4509-454f-93f8-1df3fd31df1b_MainTex"
+			},
+			"name": "material_accb32f5-4509-454f-93f8-1df3fd31df1b"
+		}
+	},
+	"nodes": {
+		"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0": {
+			"name": "node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0",
+			"meshes": [
+				"mesh_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_SceneLight_0_i1": {
+			"name": "node_SceneLight_0_i1",
+			"light": "SceneLight_0",
+			"matrix": [0.898794, 0.2191856, -0.3796406, 0, -0.4383712, 0.449397, -0.7783785, 0, -1.490116E-08, 0.8660254, 0.4999999, 0, 0, 0.021875, 0.05458749, 1]
+		},
+		"node_SceneLight_1_i2": {
+			"name": "node_SceneLight_1_i2",
+			"light": "SceneLight_1",
+			"matrix": [0.7660446, -0.4924039, -0.4131757, 0, -0.6427875, -0.5868244, -0.4924039, 0, 2.980232E-08, 0.6427875, -0.7660447, 0, 0, 0.021875, 0.05458749, 1]
+		},
+		"node_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0": {
+			"name": "node_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0",
+			"meshes": [
+				"mesh_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0": {
+			"name": "node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+			"meshes": [
+				"mesh_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0": {
+			"name": "node_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0",
+			"meshes": [
+				"mesh_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		"node_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0": {
+			"name": "node_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0",
+			"meshes": [
+				"mesh_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0"
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	},
+	"scene": "defaultScene",
+	"scenes": {
+		"defaultScene": {
+			"nodes": [
+				"node_MatteHull_79348357-432d-4746-8e29-0e25c112e3aa_0_i0",
+				"node_SceneLight_0_i1",
+				"node_SceneLight_1_i2",
+				"node_Icing_2f212815-f4d3-c1a4-681a-feeaf9c6dc37_0_i0",
+				"node_ShinyHull_faaa4d44-fcfb-4177-96be-753ac0421ba3_0_i0",
+				"node_DiamondHull_c8313697-2563-47fc-832e-290f4c04b901_0_i0",
+				"node_SoftHighlighter_accb32f5-4509-454f-93f8-1df3fd31df1b_0_i0"
+			],
+			"extras": {
+				"TB_EnvironmentGuid": "ab080599-e465-4a6d-8587-43bf495af68b",
+				"TB_Environment": "Standard",
+				"TB_UseGradient": "true",
+				"TB_SkyColorA": "0.2745098, 0.2745098, 0.3176471",
+				"TB_SkyColorB": "0.03529412, 0.03529412, 0.08627451",
+				"TB_SkyGradientDirection": "0, 1, 0",
+				"TB_FogColor": "0.1647059, 0.1647059, 0.2078431",
+				"TB_FogDensity": "0.0025",
+				"TB_SkyColorHorizon": "0.2745098, 0.2745098, 0.3176471",
+				"TB_SkyColorZenith": "0.03529412, 0.03529412, 0.08627451"
+			}
+		}
+	}
+}

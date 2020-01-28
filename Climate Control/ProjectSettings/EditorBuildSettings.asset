@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Oculus/VR/Scenes/UI.unity
+    path: 
     guid: 1f4d3ae64a10d434db219de8b14348e1
+  - enabled: 1
+    path: Assets/Scenes/Scene 2 High Res - Outside Biosphere.unity
+    guid: 69077945e8d28954e8cf36aa10978f53
   m_configObjects: {}

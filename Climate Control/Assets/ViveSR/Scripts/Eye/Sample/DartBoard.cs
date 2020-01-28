@@ -1,5 +1,6 @@
 ﻿//========= Copyright 2018, HTC Corporation. All rights reserved. ===========
 using UnityEngine;
+using ViveSR.anipal.Eye;
 
 namespace ViveSR.anipal.Eye
 {
@@ -8,16 +9,53 @@ namespace ViveSR.anipal.Eye
     {
         private Renderer Renderer;
         public uint BendCount = 3, PieCount = 10, FrameWidth = 1;
-
+        public int count = 0;
+        public GameObject buzz;
+        public AudioSource buzzy;
         private void Awake()
         {
+            print("Before Inactive");
+            buzz = GameObject.Find("Buzz");
+            print("After Inactive");
+
             Renderer = GetComponent<Renderer>();
             Focus(Vector3.zero);
+            print("After Focus");
+
+        }
+
+        public void Update()
+        {
+            string currentFocus = "";
+            if (SRanipal_Eye.Focus(GazeIndex.COMBINE, out Ray testRay, out FocusInfo focusInfo))
+            {
+                currentFocus = focusInfo.collider.gameObject.name;
+                print("Current Focus: " + currentFocus);
+                if (currentFocus == "Buzz"|| currentFocus == "Grass")
+                {
+                    buzzy.Play();
+                }
+            }
+
         }
 
         public void Focus(Vector3 focusPoint)
         {
-            float maxDist = 0.42f * transform.localScale.x;
+            if (count != 0)
+            {
+                print("Before active");
+                buzzy.Play();
+                buzz.SetActive(true);
+                print("After active");
+
+                GetComponent<AudioSource>().Play();
+                print("After Play");
+            }
+            count++;
+            print(count);
+            
+            
+            /*float maxDist = 0.42f * transform.localScale.x;
             float sectionLength = maxDist / BendCount;
             float dist = Vector3.Distance(focusPoint, transform.position);
             uint bendIndex = (uint)(dist / sectionLength);
@@ -37,6 +75,7 @@ namespace ViveSR.anipal.Eye
             Renderer.material.SetInt("_PieIndex", (int)pieIndex);
             Renderer.material.SetFloat("_Scale", transform.localScale.x);
             Renderer.material.SetFloat("_FrameWidth", FrameWidth);
+            */
         }
 
         public float SignedAngle(Vector3 v1, Vector3 v2, Vector3 v_forward)

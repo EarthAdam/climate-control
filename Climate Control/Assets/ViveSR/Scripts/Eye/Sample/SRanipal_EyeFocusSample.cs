@@ -40,17 +40,18 @@ namespace ViveSR.anipal.Eye
             foreach (GazeIndex index in GazePriority)
             {
                 Ray GazeRay;
-                int dart_board_layer_id = LayerMask.NameToLayer("NoReflection");
+                int dart_board_layer_id = 0;
                 bool eye_focus;
                 if (eye_callback_registered)
-                    eye_focus = SRanipal_Eye.Focus(index, out GazeRay, out FocusInfo, 0, MaxDistance, (1 << dart_board_layer_id), eyeData);
+                    eye_focus = SRanipal_Eye.Focus(index, out GazeRay, out FocusInfo, 0, MaxDistance, (1 << 0), eyeData);
                 else
-                    eye_focus = SRanipal_Eye.Focus(index, out GazeRay, out FocusInfo, 0, MaxDistance, (1 << dart_board_layer_id));
+                    eye_focus = SRanipal_Eye.Focus(index, out GazeRay, out FocusInfo, 0, MaxDistance, (1 << 0));
 
                 if (eye_focus)
                 {
-                    DartBoard dartBoard = FocusInfo.transform.GetComponent<DartBoard>();
-                    if (dartBoard != null) dartBoard.Focus(FocusInfo.point);
+                    DartBoard beeHive = FocusInfo.transform.GetComponent<DartBoard>();
+                    //DartBoard dartBoard = FocusInfo.transform.GetComponent<DartBoard>();
+                    if (beeHive != null) beeHive.Focus(FocusInfo.point);
                     break;
                 }
             }
